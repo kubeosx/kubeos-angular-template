@@ -1,13 +1,12 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: kubeos-dotnet-template
-  title: "Kubeos .Net 7 Service with Docker Build"
-  description: "Create a simple web api using .Net 7, which has the docker file, It also has capability of adding github pipeline to build docker image and push it to docker hub."
+  name: kubeos-angular-template
+  title: "Kubeos angular with Docker Build and deployment"
+  description: "Create a fronend app using angular which has the docker file, It also has capability of adding github pipeline to build docker image and push it to docker hub."
   tags:
     - recommended
-    - dotnet
-    - github
+    - angular
     - docker
     - kubernetes
   system: kubeos-idp

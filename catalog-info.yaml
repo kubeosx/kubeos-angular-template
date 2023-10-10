@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: kubeos-angular-template
-  description: An example of a .net 7 CI K8 template.
+  description: An example of a angular template.
   annotations:
     github.com/project-slug: kubeosx/kubeos-angular-template
     backstage.io/techdocs-ref: dir:.
