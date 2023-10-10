@@ -19,7 +19,7 @@ spec:
     github.com/project-slug: kubeosx/kubeos-dotnet-template
     backstage.io/techdocs-ref: dir:.
   parameters:
-    - title: Dotnet Solution/Project details
+    - title: Angular Solution/Project details
       required:
         - component_id # solution name
         - project_name

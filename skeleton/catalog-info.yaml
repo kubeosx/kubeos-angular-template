@@ -12,8 +12,15 @@ metadata:
     backstage.io/kubernetes-namespace: ${{values.project_k8_namespace | dump}}
     prometheus.io/alert: all
   tags:
-    - dotnet
+    - angular
     - webapi
+  links:
+    - url: https://github.com/${{values.destination.owner}}/${{values.destination.repo}}
+      icon: web
+      title: Github
+    - url: https://github.com/${{values.destination.owner}}/${{values.destination.repo}}/issues
+      icon: web
+      title: Github Issues
 spec:
   type: service
   lifecycle: experimental
