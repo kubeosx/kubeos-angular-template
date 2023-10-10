@@ -22,7 +22,7 @@ metadata:
       icon: web
       title: Github Issues
 spec:
-  type: service
+  type: website
   lifecycle: experimental
   owner: ${{values.owner | dump}}
   system:  ${{values.system | dump}}
